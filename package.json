@@ -1,12 +1,11 @@
 {
   "name": "@datnq/usemodel",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "author": "datnq",
   "license": "MIT",
   "repository": "git@github.com:datnq/usemodel.git",
   "main": "lib/index.js",
-  "unpkg": "dist/index.js",
   "module": "es/index.js",
   "engines": {
     "node": ">=8",
@@ -22,6 +21,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
+    "@datnq/unidata": "^1.1.0",
     "lodash": "^4.17.15",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -53,9 +53,7 @@
     "rollup-plugin-url": "^1.4.0"
   },
   "files": [
-    "dist"
-  ],
-  "dependencies": {
-    "@datnq/unidata": "^1.1.0"
-  }
+    "lib",
+    "es"
+  ]
 }

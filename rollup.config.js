@@ -9,8 +9,8 @@ import svgr from '@svgr/rollup'
 
 export default {
   input: {
-    'index': 'src/index.js',
-    'utils/validators': 'src/utils/validators.js',
+    index: 'src/index.js',
+    validators: 'src/utils/validators.js',
   },
   output: [
     { dir: 'lib', format: 'cjs' },
