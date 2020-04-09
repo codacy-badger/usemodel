@@ -65,7 +65,7 @@ class Model {
 ## Custom model
 
 ```js
-import { Model } from 'react-hooks-usemodel'
+import { Model } from '@datnq/usemodel'
 
 class CustomModel extends Model {
   // ...
@@ -96,7 +96,7 @@ class Field {
 
 ```js
 // checkboxField.js
-import { Field } from 'react-hooks-usemodel'
+import { Field } from '@datnq/usemodel'
 
 class CheckboxField extends Field {
   extractFromEvent(e) {
@@ -128,7 +128,7 @@ export default () => {
 
 ```js
 // models/todos.js
-import { required, minlen } from 'react-hooks-usemodel/dist/utils/validators'
+import { required, minlen } from '@datnq/usemodel/lib/utils/validators'
 
 export default () => {
   return {
@@ -155,7 +155,7 @@ export default () => {
 
 ```js
 // import
-import { useModel } from 'react-hooks-usemodel'
+import { useModel } from '@datnq/usemodel'
 
 // in component
 const todo = useModel(todoModel, defaultValue) // default value can be empty
