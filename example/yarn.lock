@@ -904,12 +904,8 @@
   resolved "https://registry.yarnpkg.com/@datnq/unidata/-/unidata-1.1.1.tgz#90eab0c327aac277d9fa22090c4e421e54ef094d"
   integrity sha512-gsJzzYX8HCWGA/JJP0ZjV7AZhgYaCnsHLTzfyHVTK8YLGCqN3a+P2q3f1QIkZzYiLaNadB9mTvX/Osk+6Lx/Zg==
 
-"@datnq/usemodel@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@datnq/usemodel/-/usemodel-1.0.1.tgz#89187428328a3a47c31a1d323c9b7dd9b077a2da"
-  integrity sha512-K2O92iRWEakjlNqhUmIgDtTpZFxzu2oaaVB/WaF5B8XwqrPLBw/dtVmqWlPU6Nd9263PN89LZFEgFB5Eo0bPFA==
-  dependencies:
-    "@datnq/unidata" "^1.1.0"
+"@datnq/usemodel@link:..":
+  version "1.0.3"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -1552,9 +1548,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.4.0"
